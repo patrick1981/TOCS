@@ -37,10 +37,6 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 
 ---
 
-To ensure I can replicate this exact setup for any future binder project, here is the master prompt. You can paste this into a new chat or a separate document to reboot the "Media Cataloging Engine" instantly.
-
----
-
 ## **Master Media Cataloging Prompt**
 
 "Act as a professional archivist and database manager. I am organizing a physical media collection into **336-slot binders**. Your goal is to generate and maintain a **Table of Contents (ToC)** following these strict rules:
@@ -66,6 +62,7 @@ To ensure I can replicate this exact setup for any future binder project, here i
 * Use `@media print` with `size: letter` and `margin: 0.5in`.
 * Set `thead { display: table-header-group; }` so headers repeat on every printed page.
 * Ensure `tr { page-break-inside: avoid; }` so rows don't split across pages."
+* Orphan Prevention: Use the CSS class .new-page-section { page-break-before: always; } on the first row of a major series to ensure the header and its content remain together on a fresh page.
 
 ---
 

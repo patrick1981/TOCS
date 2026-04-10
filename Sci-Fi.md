@@ -1,7 +1,7 @@
 # Science Fiction Table of Contents
 
 ## **The X-Files**
-| Season Number | Disc # | Episode Title |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Season Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Episode Title |
 | :---: | :---: | :--- |
 | **Season 1** | Disc 1 of 6 | Pilot, Deep Throat, Squeeze, Conduit |
 | | Disc 2 of 6 | The Jersey Devil, Shadows, Ghost in the Machine, Ice |
@@ -64,7 +64,7 @@
 ---
 
 ## **The Twilight Zone**
-| Season Number | Disc # | Episode Title |
+| Season Number | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Episode Title |
 | :---: | :---: | :--- |
 | **Season 1** | Disc 1 of 5 | Where Is Everybody?, One for the Angels, Mr. Denton on Doomsday, The Sixteen-Millimeter Shrine, Walking Distance, Escape Clause, The Lonely, Time Enough at Last |
 | | Disc 2 of 5 | Perchance to Dream, Judgment Night, And When the Sky Was Opened, What You Need, The Four of Us Are Dying, Third from the Sun, I Shot an Arrow into the Air |
@@ -94,7 +94,7 @@
 ---
 
 ## **Star Trek: TNG**
-| Season Number | Disc # | Episode Title |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Season Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Episode Title |
 | :---: | :---: | :--- |
 | **Season 1** | Disc 1 of 7 | Encounter at Farpoint, The Naked Now, Code of Honor, The Last Outpost |
 | | Disc 2 of 7 | Where No One Has Gone Before, Lonely Among Us, Justice, The Battle |
@@ -148,7 +148,7 @@
 ---
 
 ## **Twin Peaks**
-| Season Number | Disc # | Episode Title |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Season Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Episode Title |
 | :---: | :---: | :--- |
 | **Season 1** | Disc 1 of 2 | Pilot, Episode 1, Episode 2 |
 | | Disc 2 of 2 | Episodes 3, 4, 5, 6, 7 |
@@ -170,7 +170,7 @@
 ---
 
 ## **Orphan Black**
-| Season Number | Disc # | Episode Title |
+| Season Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disc #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Episode Title |
 | :---: | :---: | :--- |
 | **Season 1** | Disc 1 of 2 | Natural Selection, Instinct, Variation Under Nature, Effects of External Conditions, Conditions of Existence |
 | | Disc 2 of 2 | Variations Under Domestication, Parts Developed in an Unusual Manner, Entangled Bank, Unconscious Selection, Endless Forms Most Beautiful |

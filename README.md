@@ -1,9 +1,4 @@
-This **README** document explicitly outlines the Standard Operating Procedure (SOP) for cataloging and maintaining your physical media collection within the 336-slot binder system.
-
----
-
 # Physical Media Cataloging SOP 
-**Capacity:** 336 Slots  
 
 ## 1. Objective
 To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physical disc locations to specific episode content, ensuring the collection is organized by genre and season.

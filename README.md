@@ -1,7 +1,7 @@
 # Physical Media Cataloging SOP 
 
 ## 1. Objective
-To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physical disc locations to specific episode content, ensuring the collection is organized by genre and season.
+To maintain high-fidelity, scannable Tables of Contents (ToCs) in both Markdown and HTML formats. These documents map physical disc locations to specific episode content, ensuring the collection remains organized by genre and season.
 
 ## 2. Structural Requirements
 * **Grid System:** 3-Column Table.
@@ -14,13 +14,14 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 ## 3. Formatting Standards
 * **Title Logic:** The **Series Title (Season #)** is entered **only once** at the beginning of a season's run. All subsequent discs for that season leave Column 1 blank.
 * **Naming Convention:** Header must strictly follow `**Series Title (Season #)**`.
-* **Column Widths (HTML Only):** * Series Title: ~22% (or 200px)
-    * Disc #: ~18% (or 150px)
-    * Episode Title: Auto/Remaining width.
+* **Column Widths (HTML Only):** * Series Title: ~22%
+    * Disc #: ~18%
+    * Episode Title: 60%
+* **Clean Output:** The final outputs must not contain any AI-generated source citations.
 
 ## 4. Genre Classification Policy
 * **Strict Thematic Filtering:** Only series clearly identified as the book's primary theme (e.g., Sci-Fi) are included.
-* **Edge Case Resolution:** Series with primary tags like "Historical Drama," "Psychological Horror," or "Western" are excluded even if they contain minor supernatural or sci-fi elements (e.g., *The Terror*, *Castle Rock*).
+* **Edge Case Resolution:** Series with primary tags like "Historical Drama," "Psychological Horror," or "Western" are excluded even if they contain minor supernatural or sci-fi elements (e.g., *The Terror*, *Castle Rock*).** Twin Peaks Is Sci-Fi **
 
 ## 5. Information Retrieval Workflow
 ** ASK USER FOR BINDER GENRE **
@@ -28,8 +29,7 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 2.  **Data Verification:**
     * Check for format (Blu-ray vs. DVD) as this dictates disc count.
     * Use network search to confirm the specific episode-to-disc mapping for that retail release.
-3.  **Drafting:** Generate the table in Markdown for immediate review.
-4.  **Finalization:** Convert the confirmed list into a standalone HTML file for browser viewing and printing.
+3.  **Generation:** Generate two distinct code blocks: one for the GitHub-Flavored Markdown file and one for the standalone HTML file.
 
 ## 6. Maintenance & Updates
 * **New Book Trigger:** When a book reaches 336 slots, the system prompts for the creation of a new Book/ToC.
@@ -42,9 +42,9 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 "Act as a professional archivist and database manager. I am organizing a physical media collection into **336-slot binders**. Your goal is to generate and maintain a **Table of Contents (ToC)** following these strict rules:
 
 ### **1. Structural Requirements**
-* **Output Format:** Generate a clean HTML document styled for **Letter (8.5" x 11")** paper.
+* **Output Format:** Generate two separate code blocks. The first must be a GitHub-Flavored Markdown (`.md`) document formatted to accommodate a wide view. The second must be a clean HTML (`.html`) document. Do not truncate the code; provide the complete files.
 * **Columns:** Three columns: **Series Title**, **Disc #**, and **Episode Title**.
-* **Table Layout:** Set the table to `fixed` layout. Column 1 (Series) should be **22%**, Column 2 (Disc #) should be **18%**, and Column 3 (Episodes) should be **60%**.
+* **Table Layout (HTML):** Set the table to `fixed` layout. Column 1 (Series) should be **22%**, Column 2 (Disc #) should be **18%**, and Column 3 (Episodes) should be **60%**.
 
 ### **2. Content & Formatting Rules**
 * **Naming:** Use the exact format **"Series Title (Season #)"**.
@@ -52,17 +52,18 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 * **Relative Numbering:** Reset disc counts for every season (e.g., "Disc 1 of 5").
 * **Episode Lists:** Provide comma-separated lists of every episode on each specific disc. If specific disc contents are unknown, use web search to find the retail breakdown for that specific Blu-ray/DVD set.
 * **Thematic Filtering:** Only include series that match the specific book theme (e.g., Sci-Fi). Reject series that lean too far into Drama or Horror (e.g., *The Terror* or *Castle Rock*) unless explicitly instructed.
+* **No Citations:** Do not include any source citations (e.g., ``) in the output.
 
 ### **3. Operational Metrics**
 * **Running Tally:** At the end of every update, calculate and display:
     * **Total Slots Occupied** (Sum of all discs listed).
     * **Remaining Slots** (336 minus total occupied).
 
-### **4. Technical Styles (CSS)**
-* Use `@media print` with `size: letter` and `margin: 0.5in`.
+### **4. Technical Styles (CSS for HTML)**
+* Use `@media print` with `size: letter` and `margin: 0`.
 * Set `thead { display: table-header-group; }` so headers repeat on every printed page.
-* Ensure `tr { page-break-inside: avoid; }` so rows don't split across pages."
-* Orphan Prevention: Use the CSS class .new-page-section { page-break-before: always; } on the first row of a major series to ensure the header and its content remain together on a fresh page.
+* Ensure `tr { page-break-inside: avoid; }` so rows don't split across pages.
+* **Orphan Prevention:** Use the CSS class `.new-page-section { page-break-before: always; }` on the first row of a major series to ensure the header and its content remain together on a fresh page."
 
 ---
 
@@ -70,5 +71,3 @@ To maintain a high-fidelity, scannable Table of Contents (ToC) that maps physica
 1.  **Copy** everything between the quotes.
 2.  **Paste** it into a new session.
 3.  **Add** your series list or photo immediately after the prompt.
-
-This will instantly re-establish the SOP, the column widths, and the 336-slot tracking logic without needing to re-explain the project.

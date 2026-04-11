@@ -1,4 +1,4 @@
-# Crime, Drama, and Historical Table of Contents
+# Drama Table of Contents
 
 | Series Title | Disc # | Episode Titles |
 | :--- | :--- | :--- |

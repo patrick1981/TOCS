@@ -47,12 +47,14 @@
 | | Disc 2 of 3 | Chasing It, Walk Like a Man, Kennedy and Heidi |
 | | Disc 3 of 3 | The Second Coming, The Blue Comet, Made in America |
 | **The Sopranos (Complete Series)** | Disc 1 of 1 | Defining a Television Landmark, Supper with The Sopranos, Interview with David Chase, Deleted Scenes |
+| **Chernobyl (Miniseries)** | Disc 1 of 2 | 1:23:45, Please Remain Calm, Open Wide, O Earth |
+| | Disc 2 of 2 | The Happiness of All Mankind, Vichnaya Pamyat, Special Features |
 | **Luther (Season 1)** | Disc 1 of 2 | Episode 1, Episode 2, Episode 3 |
 | | Disc 2 of 2 | Episode 4, Episode 5, Episode 6 |
 | **Luther (Season 2)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
 | **Luther (Season 3)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
 | **Luther (Season 4)** | Disc 1 of 1 | Episode 1, Episode 2 |
-| **Luther (Season 5)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
+| **Luther (Complete Series)** | Disc 1 of 1 | Special Features |
 | **Killing Eve (Season 1)** | Disc 1 of 2 | Nice Face, I'll Deal with Him Later, Don't I Know You?, Sorry Baby |
 | | Disc 2 of 2 | I Have a Thing About Bathrooms, Take Me to the Hole!, I Don't Want to Be Free, God I'm Tired |
 | **Killing Eve (Season 2)** | Disc 1 of 2 | Do You Know How to Dispose of a Body?, Nice and Neat, The Hungry Caterpillar, Desperate Times |

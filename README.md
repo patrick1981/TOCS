@@ -12,6 +12,7 @@ To maintain high-fidelity, scannable Tables of Contents (ToCs) in both Markdown 
 * **Remaining Balance:** Every ToC update must conclude with a "Total Slots Occupied" and "Remaining Slots" tally.
 
 ## 3. Formatting Standards
+*Header:* {{Genre}} Table of Contents
 * **Title Logic:** The **Series Title (Season #)** is entered **only once** at the beginning of a season's run. All subsequent discs for that season leave Column 1 blank.
 * **Naming Convention:** Header must strictly follow `**Series Title (Season #)**`.
 * **Column Widths (HTML Only):** * Series Title: ~22%
@@ -21,7 +22,7 @@ To maintain high-fidelity, scannable Tables of Contents (ToCs) in both Markdown 
 
 ## 4. Genre Classification Policy
 * **Strict Thematic Filtering:** Only series clearly identified as the book's primary theme (e.g., Sci-Fi) are included.
-* **Edge Case Resolution:** Series with primary tags like "Historical Drama," "Psychological Horror," or "Western" are excluded even if they contain minor supernatural or sci-fi elements (e.g., *The Terror*, *Castle Rock*).** Twin Peaks Is Sci-Fi **
+* **Edge Case Resolution:ASK** 
 
 ## 5. Information Retrieval Workflow
 ** ASK USER FOR BINDER GENRE **
@@ -51,8 +52,8 @@ To maintain high-fidelity, scannable Tables of Contents (ToCs) in both Markdown 
 * **Persistence:** Only display the **Series Title** on the first row of each season. Leave it blank for all subsequent discs in that season.
 * **Relative Numbering:** Reset disc counts for every season (e.g., "Disc 1 of 5").
 * **Episode Lists:** Provide comma-separated lists of every episode on each specific disc. If specific disc contents are unknown, use web search to find the retail breakdown for that specific Blu-ray/DVD set.
-* **Thematic Filtering:** Only include series that match the specific book theme (e.g., Sci-Fi). Reject series that lean too far into Drama or Horror (e.g., *The Terror* or *Castle Rock*) unless explicitly instructed.
-* **No Citations:** Do not include any source citations (e.g., ``) in the output.
+* **Thematic Filtering:** Only include series that match the specific book theme (e.g., Sci-Fi). If Unsure, pause  and ask for clarification.
+* **No Citations:* Do not include any source citations (e.g., ``) in the output.
 
 ### **3. Operational Metrics**
 * **Running Tally:** At the end of every update, calculate and display:

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Binder 1 Table of Contents</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; line-height: 1.4; }
+        table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #444; padding: 8px; text-align: left; vertical-align: top; }
+        th { background-color: #f2f2f2; font-weight: bold; text-transform: uppercase; font-size: 0.9em; }
+        .col-series { width: 22%; }
+        .col-disc { width: 18%; }
+        .col-episodes { width: 60%; }
+        tr:nth-child(even) { background-color: #fafafa; }
+        .tally-box { border: 2px solid #222; padding: 15px; width: fit-content; background: #eee; }
+        @media print {
+            @page { size: letter; margin: 0.5in; }
+            body { margin: 0; }
+            thead { display: table-header-group; }
+            tr { page-break-inside: avoid; }
+        }
+        .new-page-section { page-break-before: always; }
+    </style>
+</head>
+<body>
+    <h1>Physical Media Catalog: Movie Binder 1</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="col-series">Series Title</th>
+                <th class="col-disc">Disc #</th>
+                <th class="col-episodes">Episode Title / Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><b>007 James Bond Ultimate Collector's Set</b></td><td>Disc 1 of 24</td><td>Dr. No</td></tr>
+            <tr><td></td><td>Disc 2 of 24</td><td>From Russia with Love</td></tr>
+            <tr><td></td><td>Disc 3 of 24</td><td>Goldfinger</td></tr>
+            <tr><td></td><td>Disc 4 of 24</td><td>Thunderball</td></tr>
+            <tr><td></td><td>Disc 5 of 24</td><td>You Only Live Twice</td></tr>
+            <tr><td></td><td>Disc 6-24</td><td>Remaining 19 Films and Bonus Disc</td></tr>
+            <tr class="new-page-section"><td><b>Lord of the Rings: Fellowship (Ext)</b></td><td>Disc 1 of 5</td><td>Feature Film - Part 1</td></tr>
+            <tr><td></td><td>Disc 2 of 5</td><td>Feature Film - Part 2</td></tr>
+            <tr><td></td><td>Disc 3 of 5</td><td>The Appendices Part 1</td></tr>
+            <tr><td></td><td>Disc 4 of 5</td><td>The Appendices Part 2</td></tr>
+            <tr><td></td><td>Disc 5 of 5</td><td>Costa Botes Documentary</td></tr>
+            <tr><td><b>Lord of the Rings: Two Towers (Ext)</b></td><td>Disc 1-5</td><td>Feature Parts 1&2, Appendices 3&4, Documentary</td></tr>
+            <tr><td><b>Lord of the Rings: Return of the King (Ext)</b></td><td>Disc 1-5</td><td>Feature Parts 1&2, Appendices 5&6, Documentary</td></tr>
+            <tr class="new-page-section"><td><b>Seven Samurai (Criterion)</b></td><td>Disc 1 of 3</td><td>Feature Film (Part 1)</td></tr>
+            <tr><td></td><td>Disc 2 of 3</td><td>Feature Film (Part 2)</td></tr>
+            <tr><td></td><td>Disc 3 of 3</td><td>Supplements</td></tr>
+            <tr><td><b>Yojimbo / Sanjuro (Criterion Set)</b></td><td>Disc 1 of 2</td><td>Yojimbo - Feature Film</td></tr>
+            <tr><td></td><td>Disc 2 of 2</td><td>Sanjuro - Feature Film</td></tr>
+            <tr><td><b>Saving Private Ryan</b></td><td>Disc 1 of 2</td><td>Feature Film</td></tr>
+            <tr><td></td><td>Disc 2 of 2</td><td>Special Features</td></tr>
+            <tr><td><b>The Dark Knight</b></td><td>Disc 1 of 2</td><td>Feature Film</td></tr>
+            <tr><td></td><td>Disc 2 of 2</td><td>Special Features</td></tr>
+            <tr><td><b>Aliens (30th Anniversary)</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>Batman Begins</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>Fargo</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>No Country for Old Men</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>The Big Lebowski</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>The Shining</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>Throne of Blood (Criterion)</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+            <tr><td><b>Tron: Legacy</b></td><td>Disc 1 of 1</td><td>Feature Film</td></tr>
+        </tbody>
+    </table>
+    <div class="tally-box">
+        <strong>Total Slots Occupied:</strong> 103<br>
+        <strong>Remaining Slots:</strong> 233
+    </div>
+</body>
+</html>

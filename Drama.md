@@ -1,14 +1,16 @@
+# Crime, Drama, and Historical Table of Contents
+
 | Series Title | Disc # | Episode Titles |
 | :--- | :--- | :--- |
-| **Justified (Season 1)** | Disc 1 of 3 | Pilot, Riverbrook, Fixer, Long in the Tooth, The Lord of War and Thunder |
+| **Justified (Season 1)** | Disc 1 of 3 | Fire in the Hole, Riverbrook, Fixer, Long in the Tooth, The Lord of War and Thunder |
 | | Disc 2 of 3 | The Collection, Blind Spot, Blowback, Hatless |
 | | Disc 3 of 3 | Hammer, Veterans, Fathers and Sons, Bulletville |
 | **Justified (Season 2)** | Disc 1 of 3 | The Moonshine War, The Life Inside, The I of the Storm, For Blood or Money |
 | | Disc 2 of 3 | Cottonmouth, Save My Love, Brother's Keeper, The Spoil, Debts and Accounts |
 | | Disc 3 of 3 | Full Commitment, Reckoning, Coalition, Bloody Harlan |
-| **Justified (Season 3)** | Disc 1 of 3 | The Gunfighter, Cut Ties, Harlan Roulette, The Man Behind the Curtain, Thick as Thieves |
-| | Disc 2 of 3 | When the Guns Come Out, The Watching Game, Watching the Detectives, Loose Ends |
-| | Disc 3 of 3 | Guy Walks Into a Bar, Measures, Coalition, Slaughterhouse |
+| **Justified (Season 3)** | Disc 1 of 3 | The Gunfighter, Cut Ties, Harlan Roulette, The Man Behind the Curtain |
+| | Disc 2 of 3 | Thick as Thieves, When the Guns Come Out, The Watching Game, Watching the Detectives |
+| | Disc 3 of 3 | Loose Ends, Guy Walks Into a Bar, Measures, Coalition, Slaughterhouse |
 | **Justified (Season 4)** | Disc 1 of 3 | Hole in the Wall, Where's Waldo?, Outlaw, This Bird Has Flown, Kin |
 | | Disc 2 of 3 | Foot Chase, Money Trap, Outlaws, The Hatchet Tour |
 | | Disc 3 of 3 | Get Drew, Decoy, Peace of Mind, Ghosts |
@@ -18,7 +20,7 @@
 | **Justified (Season 6)** | Disc 1 of 3 | Fate's Right Hand, Cash Game, Noblesse Oblige, The Trash and the Snake, Sounding |
 | | Disc 2 of 3 | Alive Day, The Hunt, Dark as a Dungeon, Burned |
 | | Disc 3 of 3 | Trust, Fugitive Number One, Collateral, The Promise |
-| **Justified (Complete Series)** | Disc 1 of 1 | "In Elmore's Words" Featurette, Writer's Speakeasy, Cast and Crew Commentary, Gag Reel, Deleted Scenes |
+| **Justified (Complete Series)** | Disc 1 of 1 | **Bonus:** "In Elmore's Words" Featurette, Writer's Speakeasy, Cast and Crew Commentary, Gag Reel, Deleted Scenes |
 | **The Sopranos (Season 1)** | Disc 1 of 4 | The Sopranos, 46 Long, Denial, Anger, Acceptance |
 | | Disc 2 of 4 | Meadowlands, College, Pax Soprana |
 | | Disc 3 of 4 | Down Neck, The Legend of Tennessee Moltisanti, Boca |
@@ -46,15 +48,15 @@
 | **The Sopranos (Season 6 - Part 2)** | Disc 1 of 3 | Soprano Home Movies, Stage 5, Remember When |
 | | Disc 2 of 3 | Chasing It, Walk Like a Man, Kennedy and Heidi |
 | | Disc 3 of 3 | The Second Coming, The Blue Comet, Made in America |
-| **The Sopranos (Complete Series)** | Disc 1 of 1 | Defining a Television Landmark, Supper with The Sopranos, Interview with David Chase, Deleted Scenes |
+| **The Sopranos (Complete Series)** | Disc 1 of 1 | **Bonus:** Defining a Television Landmark, Supper with The Sopranos, Interview with David Chase, Deleted Scenes |
 | **Chernobyl (Miniseries)** | Disc 1 of 2 | 1:23:45, Please Remain Calm, Open Wide, O Earth |
 | | Disc 2 of 2 | The Happiness of All Mankind, Vichnaya Pamyat, Special Features |
-| **Luther (Season 1)** | Disc 1 of 2 | Episode 1, Episode 2, Episode 3 |
-| | Disc 2 of 2 | Episode 4, Episode 5, Episode 6 |
+| **Luther (Season 1)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4, Episode 5, Episode 6 |
 | **Luther (Season 2)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
 | **Luther (Season 3)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
 | **Luther (Season 4)** | Disc 1 of 1 | Episode 1, Episode 2 |
-| **Luther (Complete Series)** | Disc 1 of 1 | Special Features |
+| **Luther (Season 5)** | Disc 1 of 1 | Episode 1, Episode 2, Episode 3, Episode 4 |
+| **Luther (Complete Series)** | Disc 1 of 1 | **Bonus:** Special Features |
 | **Killing Eve (Season 1)** | Disc 1 of 2 | Nice Face, I'll Deal with Him Later, Don't I Know You?, Sorry Baby |
 | | Disc 2 of 2 | I Have a Thing About Bathrooms, Take Me to the Hole!, I Don't Want to Be Free, God I'm Tired |
 | **Killing Eve (Season 2)** | Disc 1 of 2 | Do You Know How to Dispose of a Body?, Nice and Neat, The Hungry Caterpillar, Desperate Times |
@@ -65,14 +67,14 @@
 | | Disc 2 of 2 | Don't Get Attached, Oh Goodie I'm the Winner, Making Dead Things Look Nice, Hello Losers |
 | **The Terror (Season 1)** | Disc 1 of 3 | Go for Broke, Gore, The Ladder, Punished as a Boy |
 | | Disc 2 of 3 | First Shot a Winner Lads, A Mercy, Horrible from Supper |
-| | Disc 3 of 3 | Terror Camp Clear, The C, We Are Gone |
+| | Disc 3 of 3 | Terror Camp Clear, The C, The C, The Open C, We Are Gone |
 | **Squid Game (Season 1)** | Disc 1 of 3 | Red Light Green Light, Hell, The Man with the Umbrella |
 | | Disc 2 of 3 | Stick to the Team, A Fair World, Gganbu |
 | | Disc 3 of 3 | VIPS, Front Man, One Lucky Day |
-| **Squid Game (Season 2)** | Disc 1 of 2 | Episode 1, Episode 2, Episode 3 |
-| | Disc 2 of 2 | Episode 4, Episode 5, Episode 6 |
-| **Squid Game (Season 3)** | Disc 1 of 2 | Episode 1, Episode 2, Episode 3, Episode 4 |
-| | Disc 2 of 2 | Episode 5, Episode 6, Episode 7 |
+| **Squid Game (Season 2)** | Disc 1 of 2 | Bread and Lottery, Halloween Party, 001 |
+| | Disc 2 of 2 | Six Legs, One More Game, O X, Friend or Foe |
+| **Squid Game (Season 3)** | Disc 1 of 2 | Keys and Knives, The Starry Night, It's Not Your Fault, 222 |
+| | Disc 2 of 2 | ⭘△☐, Humans Are |
 | **Castle Rock (Season 1)** | Disc 1 of 3 | Severance, Habeas Corpus, Local Color, The Box |
 | | Disc 2 of 3 | Harvest, Filter, The Queen |
 | | Disc 3 of 3 | Past Perfect, Henry Deaver, Romans |
@@ -82,3 +84,6 @@
 | **John Adams (Miniseries)** | Disc 1 of 3 | Part 1: Join or Die, Part 2: Independence, Part 3: Don't Tread on Me |
 | | Disc 2 of 3 | Part 4: Reunion, Part 5: Unite or Die |
 | | Disc 3 of 3 | Part 6: Unnecessary War, Part 7: Peacefield |
+
+**Total Slots Occupied:** 82
+**Remaining Slots:** 254

@@ -1,4 +1,4 @@
-# Physical Media Catalog - Movie Binder 1
+# Movies Table of Contents
 
 | Series Title | Disc # | Episode Title / Content |
 | :--- | :--- | :--- |

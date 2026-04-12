@@ -15,7 +15,7 @@
 | | Disc 3 of 6 | Firewalker, Red Museum, Excelsis Dei, Aubrey |
 | | Disc 4 of 6 | Irresistible, Die Hand Die Verletzt, Fresh Bones, Colony |
 | | Disc 5 of 6 | End Game, Fearful Symmetry, Død Kalm, Humbug |
-| | Disc 6 of 6 | The Căluşari, F. Emasculata, Soft Light, Our Town, Anasazi |
+| | Disc 6 of 6 | The Calusari, F. Emasculata, Soft Light, Our Town, Anasazi |
 | The X-Files (Season 3) | Disc 1 of 6 | The Blessing Way, Paper Clip, D.P.O., Clyde Bruckman's Final Repose |
 | | Disc 2 of 6 | The List, 2Shy, The Walk, Oubliette |
 | | Disc 3 of 6 | Nisei, 731, Revelations, War of the Coprophages |

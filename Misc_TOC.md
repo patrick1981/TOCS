@@ -26,7 +26,7 @@
 | Live Free or Die Hard (2007) | DVD |
 | Slumdog Millionaire (2008) | DVD |
 | Chitty Chitty Bang Bang (1968) | DVD |
-| Sideways (2004) | DVD |
+| Dreamgirls (2006) | DVD |
 | Monster (2003) | DVD |
 | Miss Congeniality (2000) | DVD |
 | Miss Congeniality 2: Armed and Fabulous (2005) | DVD |
@@ -94,6 +94,35 @@
 | Pitch Perfect (2012) | DVD |
 | Pulp Fiction (1994) | Disc 1 of 2 |
 | Pulp Fiction (1994) | Disc 2 of 2 |
+| Live Free or Die Hard | DVD |
+| Sideways | DVD |
+| Wizard of Oz | DVD |
+| Dances with Wolves | DVD |
+| Supersize me | DVD |
+| The Mask | DVD |
+| Superman The Movie | DVD |
+| Stand and Deliver | DVD |
+| Bill & Ted's Excellent Adventure | DVD |
+| Bill and Ted's Bogus Journey | DVD |
+| The Goonies | DVD |
+| Miracle on 34th Street | DVD |
+| The Sound of Music | DVD |
+| The Miracle Worker | DVD |
+| Mary Poppins 40th Anniversary Edition | Disc 1 of 2 |
+| Mary Poppins 40th Anniversary Edition | Disc 2 of 2 |
+| Oklahoma | DVD |
+| Rocky | DVD |
+| The Karate Kid | DVD |
+| The Karate Kid II: The story continues | DVD |
+| The Next Karate Kid | DVD |
+| Willy Wonka and the Chocolate Factory | DVD |
+| Gremlins: Special Edition | DVD |
+| Footloose | DVD |
+| The Best of The Electric Company | DVD |
+| West Side Story | DVD |
+| Finding Nemo | Disc 1 of 2 |
+| Finding Nemo | Disc 2 of 2 |
+| The Bad News Bears | DVD |
 | DDP Yoga (2012) | Disc 3 of 4 |
 | DDP Yoga (2012) | Disc 4 of 4 |
 | P90X One on One: Mammoth UML | DVD |
@@ -125,5 +154,5 @@
 | Fat Free Yoga: Yoga Cleanse | DVD |
 | Fat Free Yoga: Total Tune-Up | DVD |
 
-**Total Slots Occupied: 122**
-**Remaining Slots: 214**
+**Total Slots Occupied: 151**
+**Remaining Slots: 185**

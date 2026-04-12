@@ -61,7 +61,9 @@
 | The X-Files (Season 11) | Disc 1 of 3 | My Struggle III, This, Plus One, The Lost Art of Forehead Sweat |
 | | Disc 2 of 3 | Ghouli, Kitten, Rm9sbG93ZXJz, Familiar |
 | | Disc 3 of 3 | Nothing Lasts Forever, My Struggle IV |
+
 ---
+
 | Series Title | Disc # | Episode Title |
 | :--- | :--- | :--- |
 | The Twilight Zone (Season 1) | Disc 1 of 5 | Where Is Everybody?, One for the Angels, Mr. Denton on Doomsday, The Sixteen-Millimeter Shrine, Walking Distance, Escape Clause, The Lonely, Time Enough at Last |
@@ -90,7 +92,6 @@
 | | Disc 5 of 5 | Mr. Garrity and the Graves, The Brain Center at Whipple's, Come Wander with Me, The Fear, The Bewitchin' Pool |
 
 ---
-
 
 | Series Title | Disc # | Episode Title |
 | :--- | :--- | :--- |

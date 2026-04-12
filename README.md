@@ -1,76 +1,137 @@
-# Physical Media Cataloging SOP 
+# PHYSICAL MEDIA CATALOGING SYSTEM - COMPLETE PACKAGE
+=====================================================
 
-## 1. Objective
-To maintain high-fidelity, scannable Tables of Contents (ToCs) in both Markdown and HTML formats. These documents map physical disc locations to specific episode content, ensuring the collection remains organized by genre and season.
+This document contains all the necessary components for your Physical Media Cataloging System.
+1. README / SOP (Standard Operating Procedure)
+2. MASTER ARCHIVIST PROMPT (To be pasted into AI)
+3. SAMPLE HTML STRUCTURE (For reference)
 
-## 2. Structural Requirements
-* **Grid System:** 3-Column Table.
-    * **Column 1 (Series Title):** The name of the show and the specific season.
-    * **Column 2 (Disc #):** Relative numbering in the format **"Disc x of y"**.
-    * **Column 3 (Episode Titles):** A comma-separated list of episodes found on that specific disc.
-* **Total Capacity:** 336 slots.
-* **Remaining Balance:** Every ToC update must conclude with a "Total Slots Occupied" and "Remaining Slots" tally.
+-------------------------------------------------------------------------------
+PART 1: README & SOP
+-------------------------------------------------------------------------------
+# Physical Media Cataloging System (v5)
 
-## 3. Formatting Standards
-*Header:* {{Genre}} Table of Contents
-* **Title Logic:** The **Series Title (Season #)** is entered **only once** at the beginning of a season's run. All subsequent discs for that season leave Column 1 blank.
-* **Naming Convention:** Header must strictly follow `**Series Title (Season #)**`.
-* **Column Widths (HTML Only):** * Series Title: ~22%
-    * Disc #: ~18%
-    * Episode Title: 60%
-* **Clean Output:** The final outputs must not contain any AI-generated source citations.
+An optimized workflow for mapping physical disc locations to digital Table of Contents (ToCs) for 336-slot binders.
 
-## 4. Genre Classification Policy
-* **Strict Thematic Filtering:** Only series clearly identified as the book's primary theme (e.g., Sci-Fi) are included.
-* **Edge Case Resolution:ASK** 
+## 🛠 Features & Rules
+1. **Dynamic Header:** Supports '{{Genre}} Table of Contents' for easy identification.
+2. **Fixed Column Logic:** HTML output is hardcoded to a 22/18/60 split for readability.
+3. **Async Handling:** "Unsure" discs (Category B) are queued so they don't block known titles.
+4. **Append Protection:** Defaults to "Append" mode to prevent physical re-indexing of 300+ discs.
+5. **Print Ready:** HTML includes repeating headers and page-break prevention.
 
-## 5. Information Retrieval Workflow
-** ASK USER FOR BINDER GENRE **
-1.  **Input:** User provides a list of titles or images of box sets.
-2.  **Data Verification:**
-    * Check for format (Blu-ray vs. DVD) as this dictates disc count.
-    * Use UPC or Internet search to confirm exact disc counts and content for retail releases.
-3.  **Generation:** Generate two distinct code blocks: one for the GitHub-Flavored Markdown file and one for the standalone HTML file.
+## 📝 How to Use
+1. Copy the 'MASTER PROMPT' section below.
+2. Paste it into your AI session.
+3. Upload your current catalog file (or paste the text) when asked.
+4. Supply new titles via list, UPC, or photo.
 
-## 6. Maintenance & Updates
-* **New Book Trigger:** When a book reaches 336 slots, the system prompts for the creation of a new Book/ToC.
-* **Revision:** Any change to a series (e.g., swapping a 5-disc set for a 6-disc set) requires a full recount of the binder's occupied slots.
+-------------------------------------------------------------------------------
+PART 2: MASTER ARCHIVIST PROMPT
+-------------------------------------------------------------------------------
+**Act as a Professional Media Archivist.**
 
----
+### 1. Initialization & Structural Intent
+I am cataloging physical media into **336-slot binders**. 
+* **The 'No-Reorg' Rule:** Always ask: 'Are we appending to an existing list or starting a brand new book?' (Prioritize appending to avoid reorganizing 300+ physical discs).
+* **Genre Header:** Ask for the Genre immediately (e.g., Sci-Fi, Horror, Animation).
+* **Current State:** Extract the 'Current Occupied Slots' from provided data/files.
+* **Visual ID:** Photos of box sets, UPCs, and disc artwork are acceptable identifiers.
 
-## **Master Media Cataloging Prompt**
+### 2. Async Processing (Categories)
+* **Category A (Verified):** Clear metadata and disc counts from search or artwork.
+* **Category B (Pending):** Ambiguous editions or titles where multiple versions exist.
+* **Workflow:** Verify Category A immediately. List Category B items for my clarification. Do not generate code until all items are cleared into Category A.
 
-"Act as a professional archivist and database manager. I am organizing a physical media collection into **336-slot binders**. Your goal is to generate and maintain a **Table of Contents (ToC)** following these strict rules:
+### 3. The Verification Pause
+Before generating code, summarize:
+* **New Titles Added:** [List]
+* **Total New Discs:** [Count]
+* **Final Occupied Slots:** [Current + New]
+* **Remaining Balance:** [336 - Final Total]
+* **Ask:** 'Metadata and math are verified. Should I generate the .md, .html, and .txt code blocks now?'
 
-### **1. Structural Requirements**
-* **Output Format:** Generate two separate code blocks. The first must be a GitHub-Flavored Markdown (`.md`) document formatted to accommodate a wide view. The second must be a clean HTML (`.html`) document.
-* **Markdown Format:** Provide the Markdown code inside a second-level code block (using ` ``` ` inside a text block) so I can copy the raw text without rendering issues. 
-* **HTML Format:** Provide a complete standalone file using **Bootstrap 5.3 CDN**. Include `@media print` CSS to ensure column widths are fixed (22%/18%/60%) and headers repeat on every page.
-* **Columns:** Three columns: **Series Title**, **Disc #**, and **Episode Title**.
-* **Table Layout (HTML):** Set the table to `fixed` layout. Column 1 (Series) should be **22%**, Column 2 (Disc #) should be **18%**, and Column 3 (Episodes) should be **60%**.
+### 4. Technical & Formatting Standards
+* **Header:** Every document must start with '# {{Genre}} Table of Contents'.
+* **Alphabetization:** Sort the entire list alphabetically, **ignoring 'The'** in titles.
+* **Visual Logic:** Series Title appears ONLY on the first row of a season. Leave the column blank for subsequent discs.
+* **Disc Numbering:** 'Disc x of y' format.
 
-### **2. Content & Formatting Rules**
-* **Naming:** Use the exact format **"Series Title (Season #)"**. Ignore "The" in titles.
-* **Persistence:** Only display the **Series Title** on the first row of each season. Leave it blank for all subsequent discs in that season.
-* **Relative Numbering:** Reset disc counts for every season (e.g., "Disc 1 of 5").
-* **Episode Lists:** Provide comma-separated lists of every episode on each specific disc. If specific disc contents are unknown, use web search to find the retail breakdown for that specific Blu-ray/DVD set.
-* **Thematic Filtering:** Only include series that match the specific book theme (e.g., Sci-Fi). If Unsure, pause  and ask for clarification.
-* **No Citations:* Do not include any source citations (e.g., ``) in the output.
+#### HTML/CSS Requirements:
+* Framework: Bootstrap 5.3 CDN.
+* CSS: table-layout: fixed; width: 100%;
+* Column Widths: Series Title (22%), Disc # (18%), Episode Titles (60%).
+* Print CSS: Include @media print { thead { display: table-header-group; } tr { page-break-inside: avoid; } @page { size: letter; margin: 0.5in; } }.
 
-### **3. Operational Metrics**
-* **Running Tally:** At the end of every update, calculate and display:
-    * **Total Slots Occupied** (Sum of all discs listed).
-    * **Remaining Slots** (336 minus total occupied).
+-------------------------------------------------------------------------------
+PART 3: SAMPLE HTML TEMPLATE
+-------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Genre}} Table of Contents</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        h1 { text-align: center; margin-bottom: 30px; text-transform: uppercase; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        
+        /* Fixed Layout Engine */
+        table { table-layout: fixed; width: 100%; border-collapse: collapse; }
+        
+        /* Explicit Column Widths (22/18/60) */
+        th:nth-child(1), td:nth-child(1) { width: 22%; } /* Series Title */
+        th:nth-child(2), td:nth-child(2) { width: 18%; } /* Disc # */
+        th:nth-child(3), td:nth-child(3) { width: 60%; } /* Episode Titles */
 
-### **4. Technical Styles (CSS for HTML)**
-* Use `@media print` with `size: letter` and `margin: 0`.
-* Set `thead { display: table-header-group; }` so headers repeat on every printed page.
-* Ensure `tr { page-break-inside: avoid; }` so rows don't split across pages.
-* **Orphan Prevention:** Use the CSS class `.new-page-section { page-break-before: always; }` on the first row of a major series to ensure the header and its content remain together on a fresh page."
+        .table thead th { background-color: #f8f9fa; vertical-align: middle; }
+        
+        /* Print Protocol */
+        @media print {
+            @page { size: letter; margin: 0.5in; }
+            body { padding: 0; }
+            thead { display: table-header-group; } /* Repeats header on new pages */
+            tr { page-break-inside: avoid; } /* Prevents row splitting */
+        }
+    </style>
+</head>
+<body>
 
----
+    <h1>{{Genre}} Table of Contents</h1>
 
-### **How to use this prompt:**
-1.  **Copy** everything between the quotes.
-2.  **Paste** it into a new session.
-3.  **Add** your series list or photo immediately after the prompt.
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Series Title (Season #)</th>
+                <th>Disc #</th>
+                <th>Episode Titles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>The Expanse (Season 1)</strong></td>
+                <td>Disc 1 of 3</td>
+                <td>Dulcinea, The Big Empty, Remember the Cant, QCB</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Disc 2 of 3</td>
+                <td>Back to the Butcher, Rock Bottom, Windmills</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Disc 3 of 3</td>
+                <td>Salvage, Critical Mass, Leviathan Wakes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="mt-4 p-3 bg-light border border-dark">
+        <p class="mb-1"><strong>Total Slots Occupied:</strong> 3</p>
+        <p class="mb-0"><strong>Remaining Slots:</strong> 333</p>
+    </div>
+
+</body>
+</html>
+-------------------------------------------------------------------------------

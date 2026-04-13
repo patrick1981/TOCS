@@ -1,4 +1,4 @@
-# Drama Table of Contents
+# Drama TV - Table of Contents
 
 | Series Title | Disc # | Episode Titles |
 | :--- | :--- | :--- |
@@ -87,5 +87,11 @@
 | **John Adams (Series 1)** | Disc 1 of 3 | Part I: Join or Die, Part II: Independence |
 | | Disc 2 of 3 | Part III: Don't Tread on Me, Part IV: Reunion, Part V: Unite or Die |
 | | Disc 3 of 3 | Part VI: Unnecessary War, Part VII: Peacefield, Bonus Content |
+| **Ratched (Season 1)** | Disc 1 of 2 | Pilot, Ice Pick, Angel of Mercy, Ratched |
+| | Disc 2 of 2 | The Dance, Got No Strings, The Bucket List, Mildred and Edmund |
 
-**Total Slots Occupied: 85** **Remaining Slots: 251**
+***
+
+**Binder Statistics:**
+- **Total Discs:** 87
+- **Remaining Slots:** 249

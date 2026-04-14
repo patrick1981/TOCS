@@ -1,0 +1,90 @@
+Welcome to Week 1 of Prompt Engineering! I am your AI Instructor, and I'll be guiding you through the mechanics of communicating effectively with large language models. As an AI, I don't "think" like a human; I process language based on patterns, structures, and parameters. The better you structure your instructions, the better my output will be.
+
+Today is **Day 1**, and our focus is on building **Adaptable Prompts**. An adaptable prompt is a reusable template that you can plug different information into to get consistent, high-quality results across various tasks. 
+
+Let's dive into the curriculum.
+
+---
+
+## **Topic 1: The Anatomy of an Adaptable Prompt**
+
+To make a prompt adaptable, we must break it down into modular components. Instead of writing a rigid paragraph, we build a framework. 
+
+### **Subtopic 1A: Variables (The Inputs)**
+Variables are placeholders within your prompt that you can swap out depending on your current need. They are usually denoted by brackets, like `[Topic]`, `[Audience]`, or `[Tone]`. 
+* **Why they matter:** They turn a single-use prompt into a scalable tool. You write the complex instructions once and simply change the variables for future uses.
+* **Example:** "Write an introduction about `[Subject]` for an audience of `[Demographic]`."
+
+### **Subtopic 1B: Constraints (The Guardrails)**
+Constraints are the strict rules the AI must follow. They prevent the model from rambling, hallucinating, or straying off-topic. 
+* **Why they matter:** AI models are naturally expansive and want to provide *more* information. Constraints force precision.
+* **Examples:** "Maximum of 3 paragraphs," "Do not use passive voice," "Strictly avoid mentioning [Competitor Name]," or "Use only the information provided in the text block."
+
+### **Subtopic 1C: Outputs (The Deliverable)**
+The output defines exactly *how* the final information should be presented. 
+* **Why it matters:** If you don't specify the format, the AI will guess, which often leads to messy or unusable data.
+* **Examples:** "Format as a Markdown table with three columns," "Output exactly as a valid JSON object," or "Deliver as a bulleted list with bolded key terms."
+
+---
+
+## **Topic 2: Advanced Reliability with CoVe Parameters**
+
+When you need highly accurate, factual outputs, standard prompting sometimes isn't enough. This is where **Chain of Verification (CoVe)** comes in. 
+
+### **Subtopic 2A: Understanding CoVe**
+CoVe is a prompting strategy designed to reduce hallucinations (made-up facts). Instead of asking the AI to give you the final answer immediately, you instruct it to double-check its own work before presenting the final result.
+
+### **Subtopic 2B: The 4 Steps of CoVe**
+To build CoVe into an adaptable prompt, you instruct the AI to follow these specific parameters:
+1.  **Draft:** Generate a baseline, initial response to the query.
+2.  **Plan:** Formulate a list of verification questions to check the factual claims made in the draft.
+3.  **Execute:** Answer those verification questions independently.
+4.  **Final Output:** Generate the final, revised response incorporating the verified facts.
+
+---
+
+## **Topic 3: The Tale of Two Prompts**
+
+Let’s look at how these elements come together by comparing a poorly constructed prompt with an ideal, adaptable prompt.
+
+### **The Poor Prompt**
+> "Write a blog post about artificial intelligence in healthcare. Make sure it's accurate and sounds professional."
+
+* **Critique:** This prompt is weak. It lacks variables (meaning it can't be easily reused for "finance" or "education"), it has no measurable constraints (what does "professional" mean?), it doesn't define the output format, and it simply asks for accuracy without enforcing a verification method.
+
+### **The Ideal Adaptable Prompt**
+> **Role:** You are an expert technical writer. 
+> 
+> **Task:** Write a blog post about `[Topic]`. 
+> 
+> **Variables:**
+> * `[Topic]`: The use of machine learning in diagnosing x-rays.
+> * `[Audience]`: First-year medical students.
+> * `[Word Count]`: Exactly 400 words.
+> 
+> **Constraints:**
+> * Do not use overly dense engineering jargon.
+> * Maintain an encouraging, educational tone.
+> * Do not invent statistics; only use widely accepted medical facts.
+> 
+> **CoVe Parameters (Execution Steps):**
+> * Step 1: Draft the post internally.
+> * Step 2: Identify any medical claims made in the draft and generate 3 verification questions to check them.
+> * Step 3: Answer your verification questions. 
+> * Step 4: Provide the final verified post. 
+> 
+> **Output format:** > Omit Steps 1-3 from your final response. Only output the final verified blog post formatted with Markdown H2 headers.
+
+---
+
+## **Day 1 Wrap-Up: Definitions & Summary**
+
+### **Key Terms Glossary**
+* **Adaptable Prompt:** A structured set of instructions designed as a reusable template rather than a single-use question.
+* **Variables:** Bracketed placeholders (e.g., `[Topic]`) within a prompt that allow users to easily swap out subjects, audiences, or data without rewriting the core instructions.
+* **Constraints:** Explicit boundaries and negative prompts ("do not do X") that limit the AI's behavior and keep the output focused.
+* **Outputs:** The strict formatting rules that dictate exactly how the AI should present the final deliverable (e.g., JSON, tables, bullet points).
+* **CoVe (Chain of Verification):** A multi-step prompting technique where the AI is forced to draft, question, verify, and revise its own output before presenting the final answer to reduce hallucinations.
+
+### **Class Summary**
+Today, we established that communicating with AI requires engineering, not just conversation. By breaking prompts down into **Variables, Constraints, and defined Outputs**, we move from hoping for a good response to engineering a guaranteed result. Furthermore, by incorporating **CoVe parameters**, we force the AI to act as its own fact-checker, drastically improving the reliability of the output. Mastering these elements is the first step in moving from a casual AI user to a proficient Prompt Engineer.
